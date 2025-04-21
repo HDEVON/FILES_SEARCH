@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         if ($password === $hashed_password) {
             // Remove the echo statement that might be preventing the redirect
             $_SESSION['name'] = $id;
-            header("Location: files.php");
+            header("Location: newfile.php");
             exit();
         } else {
             $error = "Invalid credentials.";
