@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FILES_SEARCH Application
 
 This is a simple PHP web application for managing and searching employee file records.
@@ -39,3 +40,10 @@ This is a simple PHP web application for managing and searching employee file re
 *   `login.php`: Handles user login.
 *   `logout.php`: Handles user logout.
 *   `README.md`: This file.
+=======
+in this script :
+1- login by mysql database
+2- go to files page and search by name
+3- get data from database
+4- logout if wait 5 minuts without any move
+>>>>>>> d59d45b6b769f57702c6a4251f418f92f013357c
